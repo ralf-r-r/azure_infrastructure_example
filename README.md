@@ -74,19 +74,23 @@ You can check the creted images and the delete image with these commands:
 ### Deploy the Infrastructure Using Terraform
 
 **Prepare your directory for terraform**
+
 ```terraform init```
 
 **Set the proper values in var.tf**
+
 - prefix: The prefix which should be used for all resources in this example
 - resource_group_name: The azure resource group name that contains the packer image
 - vm_size: The size of the vm
 - number_vm: The number of virtual machines
 
 **Deploy the infrastructure**
+
 ```terraform plan -out solution.plan```
 ```erraform apply "solution.plan"```
 
 **Destroy the infrastructure**
+
 ```terraform destroy```
 
 
