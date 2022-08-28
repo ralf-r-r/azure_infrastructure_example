@@ -1,6 +1,6 @@
 # Azure Infrastructure Operations Project: Deploying a scalable IaaS web server in Azure
 
-##Introduction
+## Introduction
 This project creates infrastructure as code in the form of a Terraform template to deploy a website with a load balancer.
 
 ## Dependencies
