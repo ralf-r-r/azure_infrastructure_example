@@ -86,8 +86,8 @@ You can check the creted images and the delete image with these commands:
 
 **Deploy the infrastructure**
 
-```terraform plan -out solution.plan```
-```erraform apply "solution.plan"```
+- ```terraform plan -out solution.plan```
+- ```terraform apply "solution.plan"```
 
 **Destroy the infrastructure**
 
