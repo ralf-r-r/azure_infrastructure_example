@@ -1,0 +1,17 @@
+{
+      "if": {
+        "allof": [
+          {
+            "field": "tags",
+            "notEquals": "exists"
+          },
+          {
+            "field": "Microsoft.Compute/virtualMachines/osProfile.linuxConfiguration.disablePasswordAuthentication",
+            "equals": "false"
+          }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
