@@ -67,8 +67,8 @@ Run the following command:
 
 You can check the creted images and the delete image with these commands:
 
--```az image list```
--```az image delete -g <the resource group> -n <the packer image name>```
+- ```az image list```
+- ```az image delete -g <the resource group> -n <the packer image name>```
 
 
 ### Deploy the Infrastructure Using Terraform
